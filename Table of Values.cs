@@ -23,11 +23,9 @@ class TableofValues
         Unit = unit;
     }
 
-
-
     public override string ToString()
     {
-        return $"{ID,2} {Name,-15} {Value,10:F2} {Unit,-20} {Interpretation,-20}";
+        return $"{ID,2} {Name,-15} {Value:F2,10} {Unit,-20} {Interpretation,-20}";
     }
 
     // DisplayTable method using ConsoleTables
@@ -36,7 +34,7 @@ class TableofValues
         var table = new ConsoleTable("ID", "Statistic", "Value", "Unit", "Interpretation");
         foreach (var value in tableValues)
         {
-            table.AddRow(value.ID, value.Name, value.Value, value.Unit, value.Interpretation);
+            table.AddRow(value.ID, value.Name, value.Value.ToString("F2"), value.Unit, value.Interpretation);
         }
         table.Write(Format.MarkDown);
     }
@@ -140,12 +138,16 @@ class TableofValues
 
                     tableValues.RemoveAt(deleteId);
                     Console.WriteLine("Value deleted successfully!");
+
+                    // Save the updated data immediately after deletion
+                    SaveTableData(tableValues, dataFileName);
                 }
                 else
                 {
                     Console.WriteLine("Invalid ID. Value not deleted.");
                 }
                 break;
+
 
             case 'E':
                 SaveTableData(tableValues, dataFileName);
@@ -180,8 +182,11 @@ class TableofValues
         {
             foreach (var value in tableValues)
             {
+                // Format the Value property with two decimal places
+                string formattedValue = value.Value.ToString("F2");
+
                 // Serialize the data and write it to the file
-                writer.WriteLine($"{value.ID},{value.Name},{value.Value},{value.Condition},{value.Unit},{value.Interpretation}");
+                writer.WriteLine($"{value.ID},{value.Name},{formattedValue},{value.Condition},{value.Unit},{value.Interpretation}");
             }
         }
     }

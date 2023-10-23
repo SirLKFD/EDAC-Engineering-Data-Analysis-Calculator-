@@ -7,7 +7,7 @@
         {
             Console.SetCursorPosition(22, Console.CursorTop);
             Console.Write(i + "%");
-            Thread.Sleep(0);
+            Thread.Sleep(1);
             Console.SetCursorPosition(22, Console.CursorTop);
         }
         Console.Clear();
