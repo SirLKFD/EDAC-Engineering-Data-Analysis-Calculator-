@@ -1,5 +1,0 @@
-﻿interface ICalculate
-{
-    double Calculate();
-}
-

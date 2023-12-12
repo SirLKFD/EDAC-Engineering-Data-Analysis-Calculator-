@@ -1,0 +1,163 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="WrapResults">
+    <Position X="5.25" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAAAACAAIAIiAAAAJAGAAAABAAAAAAEkACABAAAAAQ=</HashCode>
+      <FileName>Calculation and Analysis\Wrap Results.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ConcreteWrapResults">
+    <Position X="7.25" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Calculation and Analysis\Wrap Results.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Introduction">
+    <Position X="7.25" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAA=</HashCode>
+      <FileName>Introduction\Introduction.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="System.Object" Collapsed="true">
+    <Position X="11" Y="0.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Info">
+    <Position X="9.25" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAABEAAAAgAAAEAAAAAAAAAAAAAEABAAAAAAgAAABgI=</HashCode>
+      <FileName>Information\Info.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MainMenu">
+    <Position X="9.5" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAIgAAAAAAAAAAAAAI=</HashCode>
+      <FileName>Menus\Main Menu.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DataAnalysis">
+    <Position X="11.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAAAAAAAQAAAAQEAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Calculation and Analysis\DataAnalysis.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StatisticCalculation">
+    <Position X="11.5" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAQAFAAAQIFAABCAAATAiIACAAAEAAAABAAgA=</HashCode>
+      <FileName>Calculation and Analysis\Statistic Calculation.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Registration">
+    <Position X="16" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAABAAAAAACAAAEIAAAAABAAAAgACQAABBIAA=</HashCode>
+      <FileName>Information\Registration.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sequencing">
+    <Position X="7.5" Y="6.75" Width="1.5" />
+    <InheritanceLine Type="System.Object" FixedToPoint="true">
+      <Path>
+        <Point X="11.75" Y="1.062" />
+        <Point X="11.75" Y="1.625" />
+        <Point X="11.25" Y="1.625" />
+        <Point X="11.25" Y="6.125" />
+        <Point X="10.083" Y="6.125" Type="JumpStart" />
+        <Point X="9.917" Y="6.125" Type="JumpEnd" />
+        <Point X="7.125" Y="6.125" />
+        <Point X="7.125" Y="8.497" />
+        <Point X="7.5" Y="8.497" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACgAAAAAgAA=</HashCode>
+      <FileName>Information\Sequencing.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Program" Collapsed="true">
+    <Position X="9" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Introduction\Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AboutMe">
+    <Position X="17.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Menus\AboutMe.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DataSets">
+    <Position X="14.25" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAI=</HashCode>
+      <FileName>Menus\DataSets.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TableofValues">
+    <Position X="3" Y="1.75" Width="1.5" />
+    <InheritanceLine Type="System.Object" FixedToPoint="true">
+      <Path>
+        <Point X="11.75" Y="1.062" />
+        <Point X="11.75" Y="1.625" />
+        <Point X="3" Y="1.625" />
+        <Point X="3" Y="1.75" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>BAIAEAAAAASAgAQEIAACAAQAAAAgoIAAAACgAAABEAA=</HashCode>
+      <FileName>Menus\Table of Values.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Numbers">
+    <Position X="13.5" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgAgAAAAAAAABAAAIAAAAAAAAAAAEAAAAAAAAAA=</HashCode>
+      <FileName>Calculation and Analysis\Numbers.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Music">
+    <Position X="5.25" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACgAAABgAAQAAAACQAAAAAAAAAAAAACAAAAAAAAAJAA=</HashCode>
+      <FileName>Music\Music.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="ICalculate">
+    <Position X="13.5" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAIBAAAAAAAQACAAAAAAAAAAAAAAgA=</HashCode>
+      <FileName>Calculation and Analysis\Statistic Calculation.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="ICalculateVariance">
+    <Position X="11.25" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Calculation and Analysis\Statistic Calculation.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="ICalculateInterquartileRange">
+    <Position X="9.25" Y="9.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Calculation and Analysis\Statistic Calculation.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="ICalculateMedian">
+    <Position X="13.5" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Calculation and Analysis\Statistic Calculation.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
